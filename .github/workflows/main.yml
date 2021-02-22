@@ -18,15 +18,35 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Build Documentation
-        uses: nikeee/docfx-action@v1.0.0
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
         with:
-          args: "Documentation/docfx.json"
+          dotnet-version: 3.1.101
+       
+      - name: Setup DocFX
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
+      
+      - name: Install dependencies
+        run: dotnet restore
+        
+      - name: DocFX Build
+        working-directory: docs
+        run: docfx "Documentation/docfx.json"
+        continue-on-error: false 
+        
+      - name: Publish
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/_site
+          force_orphan: true
