@@ -4,11 +4,9 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    tags:
+    - '*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -18,12 +16,19 @@ jobs:
   # This workflow contains a single job called "build"
   build:
       runs-on: windows-latest # Required by DocFX
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
       steps:
       - name: Checkout
         uses: actions/checkout@v2
         # with:
         #   submodules: true
 
+      - uses: game-ci/unity-builder@v2.0-alpha-6
+        with:
+          buildMethod: UnityEditor.SyncVS.SyncSolution
+          targetPlatform: StandaloneWindows64
+          
       - name: Install DocFX
         run: choco install -y docfx
 
