@@ -1,0 +1,27 @@
+{
+  "api/GG.Singletons.html": {
+    "href": "api/GG.Singletons.html",
+    "title": "Namespace GG.Singletons | Documentation",
+    "keywords": "Namespace GG.Singletons Classes Singleton<T> UnitySingleton<T> UnitySingletonPersistent<T>"
+  },
+  "api/GG.Singletons.Singleton-1.html": {
+    "href": "api/GG.Singletons.Singleton-1.html",
+    "title": "Class Singleton<T> | Documentation",
+    "keywords": "Class Singleton<T> Inheritance Object Singleton<T> Namespace : GG.Singletons Assembly : GG.Singletons.dll Syntax public class Singleton<T> where T : Component Type Parameters Name Description T Properties | Improve this Doc View Source Exists Check if the instance exists within the opened scenes Declaration public bool Exists { get; } Property Value Type Description Boolean | Improve this Doc View Source Get Declaration public T Get { get; set; } Property Value Type Description T Methods | Improve this Doc View Source ValidateInstance(Boolean) Declaration public void ValidateInstance(bool createIfNeeded = false) Parameters Type Name Description Boolean createIfNeeded"
+  },
+  "api/GG.Singletons.UnitySingleton-1.html": {
+    "href": "api/GG.Singletons.UnitySingleton-1.html",
+    "title": "Class UnitySingleton<T> | Documentation",
+    "keywords": "Class UnitySingleton<T> Inheritance Object UnitySingleton<T> Namespace : GG.Singletons Assembly : GG.Singletons.dll Syntax public class UnitySingleton<T> : MonoBehaviour where T : Component Type Parameters Name Description T Properties | Improve this Doc View Source Exists Check if the instance exists within the opened scenes Declaration public static bool Exists { get; } Property Value Type Description Boolean | Improve this Doc View Source Instance Declaration public static T Instance { get; set; } Property Value Type Description T Methods | Improve this Doc View Source Awake() Declaration protected virtual void Awake() | Improve this Doc View Source OnDestroy() Declaration protected virtual void OnDestroy() | Improve this Doc View Source ValidateInstance(Boolean) Declaration public static void ValidateInstance(bool createIfNeeded = false) Parameters Type Name Description Boolean createIfNeeded"
+  },
+  "api/GG.Singletons.UnitySingletonPersistent-1.html": {
+    "href": "api/GG.Singletons.UnitySingletonPersistent-1.html",
+    "title": "Class UnitySingletonPersistent<T> | Documentation",
+    "keywords": "Class UnitySingletonPersistent<T> Inheritance Object UnitySingletonPersistent<T> Namespace : GG.Singletons Assembly : GG.Singletons.dll Syntax public class UnitySingletonPersistent<T> : MonoBehaviour where T : Component Type Parameters Name Description T Properties | Improve this Doc View Source Exists Check if the instance exists within the opened scenes Declaration public static bool Exists { get; } Property Value Type Description Boolean | Improve this Doc View Source Instance Declaration public static T Instance { get; } Property Value Type Description T Methods | Improve this Doc View Source Awake() Declaration protected virtual void Awake() | Improve this Doc View Source OnDestroy() Declaration protected virtual void OnDestroy() | Improve this Doc View Source ValidateInstance(Boolean) Declaration public static void ValidateInstance(bool createIfNeeded = false) Parameters Type Name Description Boolean createIfNeeded"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Title | Documentation",
+    "keywords": "Title content content"
+  }
+}

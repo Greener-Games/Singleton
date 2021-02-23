@@ -1,0 +1,257 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GG.Singletons
+  name: GG.Singletons
+  href: api/GG.Singletons.html
+  commentId: N:GG.Singletons
+  fullName: GG.Singletons
+  nameWithType: GG.Singletons
+- uid: GG.Singletons.Singleton`1
+  name: Singleton<T>
+  href: api/GG.Singletons.Singleton-1.html
+  commentId: T:GG.Singletons.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: GG.Singletons.Singleton<T>
+  fullName.vb: GG.Singletons.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: GG.Singletons.Singleton`1.Exists
+  name: Exists
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_Exists
+  commentId: P:GG.Singletons.Singleton`1.Exists
+  fullName: GG.Singletons.Singleton<T>.Exists
+  fullName.vb: GG.Singletons.Singleton(Of T).Exists
+  nameWithType: Singleton<T>.Exists
+  nameWithType.vb: Singleton(Of T).Exists
+- uid: GG.Singletons.Singleton`1.Exists*
+  name: Exists
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_Exists_
+  commentId: Overload:GG.Singletons.Singleton`1.Exists
+  isSpec: "True"
+  fullName: GG.Singletons.Singleton<T>.Exists
+  fullName.vb: GG.Singletons.Singleton(Of T).Exists
+  nameWithType: Singleton<T>.Exists
+  nameWithType.vb: Singleton(Of T).Exists
+- uid: GG.Singletons.Singleton`1.Get
+  name: Get
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_Get
+  commentId: P:GG.Singletons.Singleton`1.Get
+  fullName: GG.Singletons.Singleton<T>.Get
+  fullName.vb: GG.Singletons.Singleton(Of T).Get
+  nameWithType: Singleton<T>.Get
+  nameWithType.vb: Singleton(Of T).Get
+- uid: GG.Singletons.Singleton`1.Get*
+  name: Get
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_Get_
+  commentId: Overload:GG.Singletons.Singleton`1.Get
+  isSpec: "True"
+  fullName: GG.Singletons.Singleton<T>.Get
+  fullName.vb: GG.Singletons.Singleton(Of T).Get
+  nameWithType: Singleton<T>.Get
+  nameWithType.vb: Singleton(Of T).Get
+- uid: GG.Singletons.Singleton`1.ValidateInstance(System.Boolean)
+  name: ValidateInstance(Boolean)
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_ValidateInstance_System_Boolean_
+  commentId: M:GG.Singletons.Singleton`1.ValidateInstance(System.Boolean)
+  fullName: GG.Singletons.Singleton<T>.ValidateInstance(System.Boolean)
+  fullName.vb: GG.Singletons.Singleton(Of T).ValidateInstance(System.Boolean)
+  nameWithType: Singleton<T>.ValidateInstance(Boolean)
+  nameWithType.vb: Singleton(Of T).ValidateInstance(Boolean)
+- uid: GG.Singletons.Singleton`1.ValidateInstance*
+  name: ValidateInstance
+  href: api/GG.Singletons.Singleton-1.html#GG_Singletons_Singleton_1_ValidateInstance_
+  commentId: Overload:GG.Singletons.Singleton`1.ValidateInstance
+  isSpec: "True"
+  fullName: GG.Singletons.Singleton<T>.ValidateInstance
+  fullName.vb: GG.Singletons.Singleton(Of T).ValidateInstance
+  nameWithType: Singleton<T>.ValidateInstance
+  nameWithType.vb: Singleton(Of T).ValidateInstance
+- uid: GG.Singletons.UnitySingleton`1
+  name: UnitySingleton<T>
+  href: api/GG.Singletons.UnitySingleton-1.html
+  commentId: T:GG.Singletons.UnitySingleton`1
+  name.vb: UnitySingleton(Of T)
+  fullName: GG.Singletons.UnitySingleton<T>
+  fullName.vb: GG.Singletons.UnitySingleton(Of T)
+  nameWithType: UnitySingleton<T>
+  nameWithType.vb: UnitySingleton(Of T)
+- uid: GG.Singletons.UnitySingleton`1.Awake
+  name: Awake()
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Awake
+  commentId: M:GG.Singletons.UnitySingleton`1.Awake
+  fullName: GG.Singletons.UnitySingleton<T>.Awake()
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Awake()
+  nameWithType: UnitySingleton<T>.Awake()
+  nameWithType.vb: UnitySingleton(Of T).Awake()
+- uid: GG.Singletons.UnitySingleton`1.Awake*
+  name: Awake
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Awake_
+  commentId: Overload:GG.Singletons.UnitySingleton`1.Awake
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingleton<T>.Awake
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Awake
+  nameWithType: UnitySingleton<T>.Awake
+  nameWithType.vb: UnitySingleton(Of T).Awake
+- uid: GG.Singletons.UnitySingleton`1.Exists
+  name: Exists
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Exists
+  commentId: P:GG.Singletons.UnitySingleton`1.Exists
+  fullName: GG.Singletons.UnitySingleton<T>.Exists
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Exists
+  nameWithType: UnitySingleton<T>.Exists
+  nameWithType.vb: UnitySingleton(Of T).Exists
+- uid: GG.Singletons.UnitySingleton`1.Exists*
+  name: Exists
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Exists_
+  commentId: Overload:GG.Singletons.UnitySingleton`1.Exists
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingleton<T>.Exists
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Exists
+  nameWithType: UnitySingleton<T>.Exists
+  nameWithType.vb: UnitySingleton(Of T).Exists
+- uid: GG.Singletons.UnitySingleton`1.Instance
+  name: Instance
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Instance
+  commentId: P:GG.Singletons.UnitySingleton`1.Instance
+  fullName: GG.Singletons.UnitySingleton<T>.Instance
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Instance
+  nameWithType: UnitySingleton<T>.Instance
+  nameWithType.vb: UnitySingleton(Of T).Instance
+- uid: GG.Singletons.UnitySingleton`1.Instance*
+  name: Instance
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_Instance_
+  commentId: Overload:GG.Singletons.UnitySingleton`1.Instance
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingleton<T>.Instance
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).Instance
+  nameWithType: UnitySingleton<T>.Instance
+  nameWithType.vb: UnitySingleton(Of T).Instance
+- uid: GG.Singletons.UnitySingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_OnDestroy
+  commentId: M:GG.Singletons.UnitySingleton`1.OnDestroy
+  fullName: GG.Singletons.UnitySingleton<T>.OnDestroy()
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).OnDestroy()
+  nameWithType: UnitySingleton<T>.OnDestroy()
+  nameWithType.vb: UnitySingleton(Of T).OnDestroy()
+- uid: GG.Singletons.UnitySingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_OnDestroy_
+  commentId: Overload:GG.Singletons.UnitySingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingleton<T>.OnDestroy
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).OnDestroy
+  nameWithType: UnitySingleton<T>.OnDestroy
+  nameWithType.vb: UnitySingleton(Of T).OnDestroy
+- uid: GG.Singletons.UnitySingleton`1.ValidateInstance(System.Boolean)
+  name: ValidateInstance(Boolean)
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_ValidateInstance_System_Boolean_
+  commentId: M:GG.Singletons.UnitySingleton`1.ValidateInstance(System.Boolean)
+  fullName: GG.Singletons.UnitySingleton<T>.ValidateInstance(System.Boolean)
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).ValidateInstance(System.Boolean)
+  nameWithType: UnitySingleton<T>.ValidateInstance(Boolean)
+  nameWithType.vb: UnitySingleton(Of T).ValidateInstance(Boolean)
+- uid: GG.Singletons.UnitySingleton`1.ValidateInstance*
+  name: ValidateInstance
+  href: api/GG.Singletons.UnitySingleton-1.html#GG_Singletons_UnitySingleton_1_ValidateInstance_
+  commentId: Overload:GG.Singletons.UnitySingleton`1.ValidateInstance
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingleton<T>.ValidateInstance
+  fullName.vb: GG.Singletons.UnitySingleton(Of T).ValidateInstance
+  nameWithType: UnitySingleton<T>.ValidateInstance
+  nameWithType.vb: UnitySingleton(Of T).ValidateInstance
+- uid: GG.Singletons.UnitySingletonPersistent`1
+  name: UnitySingletonPersistent<T>
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html
+  commentId: T:GG.Singletons.UnitySingletonPersistent`1
+  name.vb: UnitySingletonPersistent(Of T)
+  fullName: GG.Singletons.UnitySingletonPersistent<T>
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T)
+  nameWithType: UnitySingletonPersistent<T>
+  nameWithType.vb: UnitySingletonPersistent(Of T)
+- uid: GG.Singletons.UnitySingletonPersistent`1.Awake
+  name: Awake()
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Awake
+  commentId: M:GG.Singletons.UnitySingletonPersistent`1.Awake
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Awake()
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Awake()
+  nameWithType: UnitySingletonPersistent<T>.Awake()
+  nameWithType.vb: UnitySingletonPersistent(Of T).Awake()
+- uid: GG.Singletons.UnitySingletonPersistent`1.Awake*
+  name: Awake
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Awake_
+  commentId: Overload:GG.Singletons.UnitySingletonPersistent`1.Awake
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Awake
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Awake
+  nameWithType: UnitySingletonPersistent<T>.Awake
+  nameWithType.vb: UnitySingletonPersistent(Of T).Awake
+- uid: GG.Singletons.UnitySingletonPersistent`1.Exists
+  name: Exists
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Exists
+  commentId: P:GG.Singletons.UnitySingletonPersistent`1.Exists
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Exists
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Exists
+  nameWithType: UnitySingletonPersistent<T>.Exists
+  nameWithType.vb: UnitySingletonPersistent(Of T).Exists
+- uid: GG.Singletons.UnitySingletonPersistent`1.Exists*
+  name: Exists
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Exists_
+  commentId: Overload:GG.Singletons.UnitySingletonPersistent`1.Exists
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Exists
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Exists
+  nameWithType: UnitySingletonPersistent<T>.Exists
+  nameWithType.vb: UnitySingletonPersistent(Of T).Exists
+- uid: GG.Singletons.UnitySingletonPersistent`1.Instance
+  name: Instance
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Instance
+  commentId: P:GG.Singletons.UnitySingletonPersistent`1.Instance
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Instance
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Instance
+  nameWithType: UnitySingletonPersistent<T>.Instance
+  nameWithType.vb: UnitySingletonPersistent(Of T).Instance
+- uid: GG.Singletons.UnitySingletonPersistent`1.Instance*
+  name: Instance
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_Instance_
+  commentId: Overload:GG.Singletons.UnitySingletonPersistent`1.Instance
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.Instance
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).Instance
+  nameWithType: UnitySingletonPersistent<T>.Instance
+  nameWithType.vb: UnitySingletonPersistent(Of T).Instance
+- uid: GG.Singletons.UnitySingletonPersistent`1.OnDestroy
+  name: OnDestroy()
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_OnDestroy
+  commentId: M:GG.Singletons.UnitySingletonPersistent`1.OnDestroy
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.OnDestroy()
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).OnDestroy()
+  nameWithType: UnitySingletonPersistent<T>.OnDestroy()
+  nameWithType.vb: UnitySingletonPersistent(Of T).OnDestroy()
+- uid: GG.Singletons.UnitySingletonPersistent`1.OnDestroy*
+  name: OnDestroy
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_OnDestroy_
+  commentId: Overload:GG.Singletons.UnitySingletonPersistent`1.OnDestroy
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.OnDestroy
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).OnDestroy
+  nameWithType: UnitySingletonPersistent<T>.OnDestroy
+  nameWithType.vb: UnitySingletonPersistent(Of T).OnDestroy
+- uid: GG.Singletons.UnitySingletonPersistent`1.ValidateInstance(System.Boolean)
+  name: ValidateInstance(Boolean)
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_ValidateInstance_System_Boolean_
+  commentId: M:GG.Singletons.UnitySingletonPersistent`1.ValidateInstance(System.Boolean)
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.ValidateInstance(System.Boolean)
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).ValidateInstance(System.Boolean)
+  nameWithType: UnitySingletonPersistent<T>.ValidateInstance(Boolean)
+  nameWithType.vb: UnitySingletonPersistent(Of T).ValidateInstance(Boolean)
+- uid: GG.Singletons.UnitySingletonPersistent`1.ValidateInstance*
+  name: ValidateInstance
+  href: api/GG.Singletons.UnitySingletonPersistent-1.html#GG_Singletons_UnitySingletonPersistent_1_ValidateInstance_
+  commentId: Overload:GG.Singletons.UnitySingletonPersistent`1.ValidateInstance
+  isSpec: "True"
+  fullName: GG.Singletons.UnitySingletonPersistent<T>.ValidateInstance
+  fullName.vb: GG.Singletons.UnitySingletonPersistent(Of T).ValidateInstance
+  nameWithType: UnitySingletonPersistent<T>.ValidateInstance
+  nameWithType.vb: UnitySingletonPersistent(Of T).ValidateInstance
