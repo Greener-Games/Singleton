@@ -29,11 +29,10 @@ jobs:
           buildMethod: UnityEditor.SyncVS.SyncSolution
           targetPlatform: StandaloneWindows
           
-      - name: Install DocFX
-        run: choco install -y docfx
-
       - name: Build
-        run: docfx Documentation/docfx.json
+        uses: nikeee/docfx-action@v1.0.0
+        with:
+          args: Documentation/docfx.json
 
       # Upload the generated documentation
       - name: Upload site artifact
