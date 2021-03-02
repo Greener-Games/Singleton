@@ -40,7 +40,27 @@ jobs:
         with:
           name: _site
           path: _site # Must equals the 'build.dest' value on your docfx.json
-      
+          
+    # Deploy the generated documentation to the gh-pages branch
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        # with:
+        #   submodules: true
+
+      # Download the generated documentation
+      - name: Download site artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: _site
+          path: _site
+          
+      - name: debug
+        run: ls -al && ls -al _site
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
