@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Generate Documentation
 
 # Controls when the action will run. 
 on:
@@ -57,10 +57,7 @@ jobs:
         with:
           name: _site
           path: _site
-          
-      - name: debug
-        run: ls -al && ls -al _site
-        
+                  
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
