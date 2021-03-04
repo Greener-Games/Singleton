@@ -79,7 +79,6 @@ namespace GG.Singletons
         
         protected virtual void OnDestroy()
         {
-            Helpers.DeRegisterDontDestroy(_instance.gameObject);
             _instance = null;
         }
     }
