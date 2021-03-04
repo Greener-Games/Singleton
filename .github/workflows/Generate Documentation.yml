@@ -15,20 +15,19 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-      runs-on: ubuntu-latest     
-      env:
-        UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
+      runs-on: ubuntu-latest
       steps:
       - name: Checkout
         uses: actions/checkout@v2
         # with:
-        #   submodules: true
-
-      - uses: game-ci/unity-builder@v2.0-alpha-6
+        #   submodules: true        
+      - uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
         with:
           buildMethod: UnityEditor.SyncVS.SyncSolution
           targetPlatform: StandaloneWindows
-          
+
       - name: Build
         uses: nikeee/docfx-action@v1.0.0
         with:
