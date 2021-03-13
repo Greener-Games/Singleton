@@ -22,6 +22,11 @@ jobs:
         # with:
         #   submodules: true
 
+      - id: foo
+        uses: Greener-Games/Generate-Documentation@v1.0.4
+        with:
+          unity-key: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
+        
       - uses: game-ci/unity-builder@v2
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
