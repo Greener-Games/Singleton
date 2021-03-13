@@ -24,7 +24,7 @@ jobs:
         # with:
         #   submodules: true
 
-      - uses: actions/ReleaseAction@v1
+      - uses: actions/ReleaseAction@v1.0.0
         with:
           who-to-greet: 'Mona the Octocat'
         
