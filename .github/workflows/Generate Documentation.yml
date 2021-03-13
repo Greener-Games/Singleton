@@ -17,7 +17,7 @@ jobs:
   build:
       runs-on: ubuntu-latest
       steps:
-      - uses: Greener-Games/Generate-Documentation@v1.0.1
+      - uses: Greener-Games/Generate-Documentation@v1.0.2
           
     # Deploy the generated documentation to the gh-pages branch
   deploy:
