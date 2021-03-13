@@ -22,7 +22,7 @@ jobs:
         # with:
         #   submodules: true
       
-      - uses: actions/hello-world-composite-run-steps-action@v1
+      - uses: Greener-Games/Generate-Documentation@v1.0.5
         with:
           unity-key: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
         
