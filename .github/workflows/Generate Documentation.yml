@@ -15,35 +15,9 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-      runs-on: ubuntu-latest     
-      env:
-        UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
+      runs-on: ubuntu-latest
       steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        # with:
-        #   submodules: true
-
-      - uses: Greener-Games/ReleaseAction@v1.0.0
-        with:
-          who-to-greet: 'Mona the Octocat'
-        
-      - uses: game-ci/unity-builder@v2.0-alpha-6
-        with:
-          buildMethod: UnityEditor.SyncVS.SyncSolution
-          targetPlatform: StandaloneWindows
-          
-      - name: Build
-        uses: nikeee/docfx-action@v1.0.0
-        with:
-          args: Documentation/docfx.json
-
-      # Upload the generated documentation
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: _site
-          path: _site # Must equals the 'build.dest' value on your docfx.json
+      - uses: Greener-Games/Generate-Documentation@v1.0.1
           
     # Deploy the generated documentation to the gh-pages branch
   deploy:
