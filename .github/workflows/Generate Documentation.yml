@@ -21,6 +21,10 @@ jobs:
         uses: actions/checkout@v2
         # with:
         #   submodules: true
+      
+      - uses: actions/hello-world-composite-run-steps-action@v1
+        with:
+          unity-key: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
         
       - uses: game-ci/unity-builder@v2
         env:
