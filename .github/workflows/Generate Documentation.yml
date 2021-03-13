@@ -20,12 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         # with:
-        #   submodules: true
-      
-      - uses: Greener-Games/Generate-Documentation@v1.0.5
-        with:
-          unity-key: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
-        
+        #   submodules: true        
       - uses: game-ci/unity-builder@v2
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENCE_2019_4_12F1 }}
