@@ -1,7 +1,3 @@
-# Title
-
-content content
-
 #Usage
 All singleton scripts are designed to be used within your own classes. 
 Simply extend from the base class and your singleton logic will be available.
