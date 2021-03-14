@@ -73,6 +73,41 @@
 <h1 id="title">Title</h1>
 
 <p>content content</p>
+<h1 id="usage">Usage</h1>
+<p>All singleton scripts are designed to be used within your own classes. 
+Simply extend from the base class and your singleton logic will be available.</p>
+<p>The class is set up to find the singleton object in a scene regardless if the Gameobject is on or not, if it can not find one it will create it.</p>
+<p>If multiple singleton classes are loaded the last one to load will be destroyed.</p>
+<p>Accessible though MyClass.Instance</p>
+<h2 id="unity-singleton">Unity Singleton</h2>
+<p>Scene singleton that will get cleaned up when the scene it is in gets destroyed.</p>
+<pre><code class="lang-c#">Public class SceneSingleton : Singleton&lt;SceneSingleton&gt;
+{
+    //your class here
+}
+</code></pre><h2 id="unity-singleton-persistent">Unity singleton Persistent</h2>
+<p>A Persistant singleton that once spawned will not auto get cleaned up until after the game has unloaded</p>
+<pre><code class="lang-c#">Public class PersistentSingleton : UnitySingletonPersistent&lt;SceneSingleton&gt;
+{
+    //your class here
+}
+</code></pre><h2 id="singleton">Singleton</h2>
+<p>A Version of the single that does not work from inheriting a script, Useful when you need to work within another inheritance sequence.
+The main difference here is that its accessible though Accessible though MyClass.Instance.Get</p>
+<pre><code class="lang-c#">Public class MyClass : SomeOtherClass
+{
+    public Singleton&lt;MyClass&gt; Instance = new Singleton&lt;MyClass&gt;();
+
+    //your class here
+}
+</code></pre><h1 id="methods">Methods</h1>
+<h2 id="instance">Instance</h2>
+<p>Singleton way to access the Object</p>
+<h2 id="validateinstance">ValidateInstance</h2>
+<p>Checks that the singleton exists and stores its variable for future access.
+Option parameter to create the instance if it does not, this is defaulted to true.</p>
+<h2 id="exists">Exists</h2>
+<p>Checks if the singleton exists without creating it in the process.</p>
 </article>
           </div>
           
