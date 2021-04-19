@@ -12,7 +12,7 @@ Accessible though MyClass.Instance
 Scene singleton that will get cleaned up when the scene it is in gets destroyed.
 
 ```c#
-Public class SceneSingleton : Singleton<SceneSingleton>
+Public class SceneSingleton : UnitySingleton<SceneSingleton>
 {
     //your class here
 }
