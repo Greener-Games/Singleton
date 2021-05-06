@@ -44,14 +44,11 @@ namespace GG.Singletons
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
                 Scene s = SceneManager.GetSceneAt(i);
-                if (s.isLoaded)
+                GameObject[] allGameObjects = s.GetRootGameObjects();
+                for (int j = 0; j < allGameObjects.Length; j++)
                 {
-                    GameObject[] allGameObjects = s.GetRootGameObjects();
-                    for (int j = 0; j < allGameObjects.Length; j++)
-                    {
-                        GameObject go = allGameObjects[j];
-                        results.AddRange(go.GetComponentsInChildren<T>(true));
-                    }
+                    GameObject go = allGameObjects[j];
+                    results.AddRange(go.GetComponentsInChildren<T>(true));
                 }
             }
 
