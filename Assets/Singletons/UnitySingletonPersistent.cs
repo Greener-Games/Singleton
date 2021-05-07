@@ -41,7 +41,7 @@ namespace GG.Singletons
                     _instance = obj.AddComponent<T>();
                 }
                 
-                if (_instance != null)
+                if (_instance != null && Application.isPlaying)
                 {
                     Helpers.RegisterDontDestroy(_instance.gameObject);
                     DontDestroyOnLoad(_instance);
