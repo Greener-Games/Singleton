@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Title | Documentation </title>
+    <title>Usage | Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Title | Documentation ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="title" content="Usage | Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -70,10 +70,8 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="title">Title</h1>
-
-<p>content content</p>
 <h1 id="usage">Usage</h1>
+
 <p>All singleton scripts are designed to be used within your own classes. 
 Simply extend from the base class and your singleton logic will be available.</p>
 <p>The class is set up to find the singleton object in a scene regardless if the Gameobject is on or not, if it can not find one it will create it.</p>
@@ -81,7 +79,7 @@ Simply extend from the base class and your singleton logic will be available.</p
 <p>Accessible though MyClass.Instance</p>
 <h2 id="unity-singleton">Unity Singleton</h2>
 <p>Scene singleton that will get cleaned up when the scene it is in gets destroyed.</p>
-<pre><code class="lang-c#">Public class SceneSingleton : Singleton&lt;SceneSingleton&gt;
+<pre><code class="lang-c#">Public class SceneSingleton : UnitySingleton&lt;SceneSingleton&gt;
 {
     //your class here
 }
@@ -116,7 +114,7 @@ Option parameter to create the instance if it does not, this is defaulted to tru
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Greener-Games/Singleton/blob/master/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Greener-Games/Singleton/blob/1f51b65be22ed5a32c25d7442af4fd95120f7bd8/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
