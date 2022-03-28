@@ -14,10 +14,12 @@ namespace GG.Singletons
                 return _instance;
             }
             //advised to avoid using this
-            set
-            {
-                _instance = value;
-            }
+            set => _instance = value;
+        }
+        
+        public TX As<TX>() where TX : class
+        {
+            return _instance as TX;
         }
 
         /// <summary>
